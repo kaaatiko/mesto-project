@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <div class="page">
+        <header class="header">
+            <img src="./images/Vector.png" alt="Лого" class="header__logo">
+        </header>
+        <main class="content">
+            <section class="profile">
+                <div class="profile__card">
+                    <div class="profile__avatar"></div>
+                    <div class="profile__info">
+                        <div class="profile__author">
+                            <h1 class="profile__name-author">Жак-Ив Кусто</h1>
+                            <button class="profile__edit-btn" type="submit"></button>
+                        </div>
+                        <p class="profile__about-author">Исследователь океана</p>
+                    </div>
+                </div>
+                <button class="profile__add-card-btn" type="button"></button>
+            </section>
+
+            <section class="photo-cards">
+                <div class="photo-cards__item">
+                    <img src="./images/karachaevsk.png" alt="Карачаевск" class="photo-cards__image">
+                    <div class="photo-cards__description">
+                        <h4 class="photo-cards__title">Карачаевск</h4>
+                        <button class="photo-cards__like" type="button"></button>
+                    </div>
+                </div>
+                <div class="photo-cards__item">
+                    <img src="./images/elbrus.png" alt="Эльбрус" class="photo-cards__image">
+                    <div class="photo-cards__description">
+                        <h4 class="photo-cards__title">Гора Эльбрус</h4>
+                        <button class="photo-cards__like" type="button"></button>
+                    </div>
+                </div>
+                <div class="photo-cards__item">
+                    <img src="./images/Dombay.png" alt="Домбай" class="photo-cards__image">
+                    <div class="photo-cards__description">
+                        <h4 class="photo-cards__title">Домбай</h4>
+                        <button class="photo-cards__like" type="button"></button>
+                    </div>
+                </div>
+                <div class="photo-cards__item">
+                    <img src="./images/elbrus.png" alt="Эльбрус" class="photo-cards__image">
+                    <div class="photo-cards__description">
+                        <h4 class="photo-cards__title">Гора Эльбрус</h4>
+                        <button class="photo-cards__like" type="button"></button>
+                    </div>
+                </div>
+                <div class="photo-cards__item">
+                    <img src="./images/Dombay.png" alt="Домбай" class="photo-cards__image">
+                    <div class="photo-cards__description">
+                        <h4 class="photo-cards__title">Домбай</h4>
+                        <button class="photo-cards__like" type="button"></button>
+                    </div>
+                </div>
+                <div class="photo-cards__item">
+                    <img src="./images/karachaevsk.png" alt="Карачаевск" class="photo-cards__image">
+                    <div class="photo-cards__description">
+                        <h4 class="photo-cards__title">Карачаево-Черкесия</h4>
+                        <button class="photo-cards__like" type="button"></button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyrighter">&copy; 2022 Екатерина Мастерова</p>
+        </footer>
+    </div>
+    <div class="popup">
+        <div class="popup__container">
+            <img class="popup__close" src="./images/Close Icon.png">
+            <h2 class="popup__heading">Редактировать профиль</h2>
+            <form class="popup__form">
+                <input type="text" class="popup__form-item" name="name" placeholder="Жак-Ив Кусто">
+                <input type="text" class="popup__form-item" name="about" placeholder="Исследователь океана">
+                <button type="submit" class="popup__submit-btn">Сохранить</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.profile__author {
+    display: flex;
+    column-gap: 18px;
+}
+
+@media screen and (max-width: 321px) {
+    .profile__author {
+        column-gap: 10px;
+    }
+}

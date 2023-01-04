@@ -1,0 +1,12 @@
+.photo-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 17px;
+    padding-top: 42.75px;
+}
+
+@media screen and (max-width: 321px) {
+    .photo-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

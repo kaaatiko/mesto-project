@@ -1,0 +1,6 @@
+.photo-cards__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 22px 15px 25px 21px;
+}

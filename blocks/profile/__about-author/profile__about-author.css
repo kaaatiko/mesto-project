@@ -1,0 +1,12 @@
+.profile__about-author {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 21.78px;
+}
+
+@media screen and (max-width: 321px) {
+    .profile__about-author {
+        font-size: 14px;
+    }
+}
