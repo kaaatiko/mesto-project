@@ -2,6 +2,6 @@
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    background-image: url(/mesto-project/images/image.jpeg);
+    background-image: url(../../../images/image.jpeg);
     background-size: cover;
 }

@@ -1,5 +1,5 @@
 .photo-cards__like {
-    background-image: url(/mesto-project/images/like.png);
+    background-image: url(../../../images/like.png);
     background-size: contain;
     border: 0;
     background-color: transparent;
@@ -17,5 +17,5 @@
 }
 
 .photo-cards__like:active {
-    background-image: url(/mesto-project/images/Union.png);
+    background-image: url(../../../images/Union.png);
 }
