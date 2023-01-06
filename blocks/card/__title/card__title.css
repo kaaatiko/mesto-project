@@ -1,8 +1,8 @@
-.photo-cards__title {
+.card__title {
     margin: 0;
     color: #000000;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 900;
     line-height: 29px;
     text-overflow: ellipsis;
     white-space: nowrap;

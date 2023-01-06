@@ -1,5 +1,5 @@
-.photo-cards__like {
-    background-image: url(../../../images/like.png);
+.card__like {
+    background-image: url(../../../images/like_light.svg);
     background-size: contain;
     border: 0;
     background-color: transparent;
@@ -9,13 +9,14 @@
     height: 19px;
     padding: 0;
     margin: 0;
+    margin-right: 5px;
     align-self: center;
 }
 
-.photo-cards__like:hover {
-    opacity: .8;
+.card__like:hover {
+    opacity: .5;
 }
 
-.photo-cards__like:active {
-    background-image: url(../../../images/Union.png);
+.card__like:active {
+    background-image: url(../../../images/like_dark.svg);
 }

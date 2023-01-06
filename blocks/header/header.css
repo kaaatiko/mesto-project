@@ -1,7 +1,6 @@
 .header {
     width: calc(100% - 200px - 200px);
-    min-height: 74px;
-    border-bottom: 1px solid #545454;
+    border-bottom: 1px solid rgba(54, 54, 54, .7);
     display: flex;
     margin: 0 auto;
 }
@@ -9,6 +8,5 @@
 @media screen and (max-width: 321px) {
     .header {
         width: 100%;
-        min-height: 56px;
     }
 }
