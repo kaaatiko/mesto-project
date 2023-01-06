@@ -20,5 +20,6 @@
     .popup__submit-btn {
         margin-top: 45px;
         font-size: 14px;
+        line-height: 17px;
     }
 }
