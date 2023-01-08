@@ -1,9 +1,12 @@
 .profile__author {
     display: flex;
     column-gap: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 767px) {
     .profile__author {
         column-gap: 10px;
     }

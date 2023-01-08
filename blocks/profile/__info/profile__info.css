@@ -5,7 +5,8 @@
     row-gap: 10px;
     }
 
-@media screen and (max-width: 321px) {
+
+@media screen and (max-width: 1023px) {
     .profile__info {
         justify-content: start;
         margin-top: 26px;

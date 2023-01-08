@@ -1,12 +1,23 @@
 .photo-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
     gap: 20px 17px;
     padding-top: 50px;
+    /* box-sizing: border-box; */
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 1023px) {
+    .photo-cards {
+        grid-template-columns: repeat(2, 282px);
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
     .photo-cards {
         grid-template-columns: repeat(1, 1fr);
+        place-items: center;
     }
 }
